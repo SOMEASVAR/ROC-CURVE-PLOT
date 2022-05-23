@@ -9,10 +9,8 @@
 
 ## Related Theory Concept:
 The receiver operating characteristic (ROC) curve is frequently used for evaluating the performance of binary classification algorithms. It provides a graphical representation of a classifier’s performance, rather than a single value like most other metrics. First, let’s establish that in binary classification, there are four possible outcomes for a test prediction: true positive, false positive, true negative, and false negative. The ROC curve is produced by calculating and plotting the true positive rate against the false positive rate for a single classifier at a variety of thresholds.
-
 ## Uses of ROC Curve :
 One advantage presented by ROC curves is that they aid us in finding a classification threshold that suits our specific problem.
-
 On the other hand, if our classifier is predicting whether someone has a terminal illness, we might be ok with a higher number of false positives (incorrectly diagnosing the illness), just to make sure that we don’t miss any true positives (people who actually have the illness).
 
 ## Algorithm:
@@ -20,7 +18,7 @@ On the other hand, if our classifier is predicting whether someone has a termina
 2. Load the Data.
 3. Create Training and Test Samples. 
 4. Fit the Logistic Regression Model.
-5. . Diagnostics
+5. Diagnostics
 
 ## Program:
 ```
@@ -28,7 +26,6 @@ Program to plot Receiver Operating Characteristic [ROC] Curve.
 Developed by   : R.SOMEASVAR
 RegisterNumber :  21222123103
 ```
-
 ```
 import pandas as pd
 import numpy as np
@@ -57,11 +54,15 @@ plt.ylabel("True Positive Rate")
 plt.ylabel("False Positive Rate")
 plt.show()
 ```
-
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 ## Output:
 ![ANN by back propagation algorithm](./O1.jpg)
 ![ANN by back propagation algorithm](./O2.jpg)
-
 
 ## Result:
 Thus the python program successully plotted Receiver Operating Characteristic [ROC] Curve.
